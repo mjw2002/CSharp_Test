@@ -16,7 +16,43 @@ namespace Text_Adventure
       static int intelligence = 10;
       static int dexterity = 10;
       static int wisdom = 10;
-    }
+    }    
+    public static void mainTitle()
+        {
+            Console.WindowWidth = 121;
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Clear();
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(" ▓▓▓▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓▓▓▓    ▓▓▓▓▓▓▓▓▓▓▓▓▓    ▓▓       ▓▓    ▓▓▓▓▓▓    ▓▓       ▓▓    ▓▓▓▓▓▓▓▓▓▓▓  ");
+            Console.WriteLine(" ▓▓                  ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓      ▓▓      ▓▓       ▓▓    ▓▓           ");
+            Console.WriteLine(" ▓▓                  ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓      ▓▓      ▓▓       ▓▓    ▓▓           ");
+            Console.WriteLine(" ▓▓                  ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓      ▓▓      ▓▓       ▓▓    ▓▓           ");
+            Console.WriteLine(" ▓▓▓▓▓▓▓▓▓▓          ▓▓          ▓▓▓▓▓▓▓▓▓▓▓▓▓          ▓▓         ▓▓▓▓▓▓▓▓▓▓▓      ▓▓      ▓▓       ▓▓    ▓▓▓▓▓▓▓▓▓▓▓  ");
+            Console.WriteLine(" ▓▓                  ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓      ▓▓      ▓▓       ▓▓             ▓▓  ");
+            Console.WriteLine(" ▓▓                  ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓      ▓▓      ▓▓       ▓▓             ▓▓  ");
+            Console.WriteLine(" ▓▓                  ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓      ▓▓      ▓▓       ▓▓             ▓▓  ");
+            Console.WriteLine(" ▓▓▓▓▓▓▓▓▓▓          ▓▓          ▓▓         ▓▓          ▓▓         ▓▓       ▓▓    ▓▓▓▓▓▓    ▓▓▓▓▓▓▓▓▓▓▓    ▓▓▓▓▓▓▓▓▓▓▓  ");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("                                            Press Enter to Continue!");
+            Console.ReadLine();
+            Console.Clear();
+            Game.StartGame();
+        }
     public static void StartGame () 
     {
       void NameCharacter()
@@ -35,6 +71,6 @@ namespace Text_Adventure
     }
     static void Main()
     {
-      Game.StartGame()
+      Game.mainTitle();
     }
   }
