@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Diagnostics;
+
+namespace Text_Adventure
+  {
+    public static class Game
+    {
+      static string CharacterName = "John Doe";
+      static string ClassOfCharacter = "None";
+      static int input1 = 0;
+      static int strength = 10;
+      static int intelligence = 10;
+      static int dexterity = 10;
+      static int wisdom = 10;
+    }
+    public static void StartGame () 
+    {
+      void NameCharacter()
+      {
+      }
+      void PersonClass()
+      {
+      }
+      
+    }
+    void Choice()
+    {
+    }
+    void WhatRock()
+    {
+    }
+    static void Main()
+    {
+      Game.StartGame()
+    }
+  }
