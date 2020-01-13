@@ -61,9 +61,9 @@ namespace Text_Adventure
       Console.ResetColor();
       Console.BackgroundColor = ConsoleColor.Gray;
       Console.ForegroundColor = ConsoleColor.Black;
-      Console.WriteLine("this fantastic game is taking place in the realm Etathius");
-      Console.WriteLine("This realm is known for the strange magic that occurs that sometimes sucks people out of their realm   into it.");
-      Console.WriteLine("Those that have this happen to the and go to this realm are called the bewitched. And are feared for they are\ninfected with dark magic\n");
+      Console.WriteLine("this fantastic adventure is taking place in the realm Etathius.")
+      Console.WriteLine("This realm is known for the strange magic that occurs that sometimes summons people from there realm to this one.");
+      Console.WriteLine("Those that have this happen to the and go to this realm are called the blessed.  For it is known to bring forth\nmany great heroes but sometimes it brings forth terrible villians.");
       Console.WriteLine("As you come to, you are in a forest with trees that stretch to the sky, there are no branches until about half way up the tree.");
             Choice();
       
