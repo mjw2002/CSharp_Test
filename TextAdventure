@@ -55,6 +55,18 @@ namespace Text_Adventure
         }
     public static void StartGame () 
     {
+      Console.ForegroundColor = ConsoleColor.Red;
+      Console.BackgroundColor = ConsoleColor.Gray;
+      Console.WriteLine("Etathius the text based game!\n");
+      Console.ResetColor();
+      Console.BackgroundColor = ConsoleColor.Gray;
+      Console.ForegroundColor = ConsoleColor.Black;
+      Console.WriteLine("this fantastic game is taking place in the realm Etathius");
+      Console.WriteLine("This realm is known for the strange magic that occurs that sometimes sucks people out of their realm   into it.");
+      Console.WriteLine("Those that have this happen to the and go to this realm are called the bewitched. And are feared for they are\ninfected with dark magic\n");
+      Console.WriteLine("As you come to, you are in a forest with trees that stretch to the sky, there are no branches until about half way up the tree.");
+            Choice();
+      
       void NameCharacter()
       {
       }
